@@ -12,12 +12,12 @@ const todoSchema=new mongoose.Schema({
         maxLength:50,
     },
     createdAt: {
-        type: Data,
+        type: Date,
         required:true,
         default: Date.now(),
     },
     updatedAt: {
-        type: Data,
+        type: Date,
         required:true,
         default: Date.now(),
     }
