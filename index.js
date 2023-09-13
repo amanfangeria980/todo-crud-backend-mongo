@@ -31,3 +31,5 @@ dbConnect();
 app.get("/",(req,res)=>{
     res.send("<h1>This is HOMEPAGE </h1>")
 })
+
+// Finally, we are able to create a todo entry to our database
